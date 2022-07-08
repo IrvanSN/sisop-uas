@@ -1,8 +1,9 @@
 #! /bin/bash
 # membuat program palindrome checker
 
-echo "masukkan kalimat"
-read -a string
+inputfile=$1
+outputfile=$2
+read -a string <<< $(cat $inputfile)
 
 jumlah="${#string[@]}"
 
@@ -11,9 +12,9 @@ while [ "$count" -lt "$jumlah" ]
 do
 if [[ $(rev <<< "${string["$count"]}") == "${string["$count"]}" ]];
 then
-	echo "palindrome" >> andi.txt
+	echo "${string["$count"]} = palindrome" >> $outputfile
 else
-	echo "!palindrome " >> andi.txt
+	echo "${string["$count"]} = !palindrome" >> $outputfile
 fi
 count=$(("$count"+1))
 done
