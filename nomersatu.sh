@@ -1,7 +1,7 @@
 #!/bin/bash
 # program nomer satu
 
-echo -n "Masukkan angka yang ingin anda hitung: "
+echo -n "Masukkan operasi matematika, ex: 3 + 3 x 3 || 4 : 3 x 3: "
 read -a equation
 
 a=${equation[0]}
@@ -13,9 +13,7 @@ e=${equation[4]}
 if [[ $b == ":" ]]
 then
 	b="/"
-fi
-
-if [[ $b == x ]]
+elif [[ $b == x ]]
 then
 	b="*"
 fi
@@ -23,9 +21,7 @@ fi
 if [[ $d == ":" ]]
 then
 	d="/"
-fi
-
-if [[ $d == x ]]
+elif [[ $d == x ]]
 then
 	d="*"
 fi

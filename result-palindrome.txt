@@ -1,0 +1,8 @@
+andi = !palindrome
+ini = palindrome
+ada = palindrome
+dua, = !palindrome
+ini = palindrome
+satunya = !palindrome
+ada = palindrome
+php = palindrome
