@@ -12,9 +12,9 @@ while [ "$count" -lt "$jumlah" ]
 do
 if [[ $(rev <<< "${string["$count"]}") == "${string["$count"]}" ]];
 then
-	echo "${string["$count"]} = palindrome" >> $output_file
+	echo -n "palindrome " >> $output_file
 else
-	echo "${string["$count"]} = !palindrome" >> $output_file
+	echo -n "!palindrome " >> $output_file
 fi
 count=$(("$count"+1))
 done
