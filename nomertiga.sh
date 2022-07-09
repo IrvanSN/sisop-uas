@@ -1,5 +1,5 @@
 #! /bin/bash
-# program membuat kalkulator sederhana
+# program to decrypt a file
 
 input_file=$1
 output_file=$2
