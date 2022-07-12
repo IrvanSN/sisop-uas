@@ -1,7 +1,7 @@
 #!/bin/bash
 # program nomer satu
 
-echo -n "Masukkan operasi matematika, ex: 3 + 3 x 3 || 4 : 3 x 3: "
+echo "Masukkan operasi matematika, ex: 3 + 3 x 3 || 4 : 3 x 3: "
 read -a equation
 
 a=${equation[0]}
@@ -26,4 +26,4 @@ then
 	d="*"
 fi
 
-echo $(($a$b$c$d$e))
+echo "scale=3; $a$b$c$d$e" | bc -l
