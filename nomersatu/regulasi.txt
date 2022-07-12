@@ -1,0 +1,24 @@
+=====  KALKULATOR SEDERHANA  =====
+Selamat Datang di Pemrograman bash
+
+Perkenalkan anggota kelompok kami
+1.) M. ANDI DIVANGGA P. (1203210005)
+2.) IRVAN SURYA NUGRAHA (1203210007)
+
+KETENTUAN PROGRAM:
+
+FORMAT PENULISAN : 
+([OPERAND] [OPERATOR] [OPERAND] [OPERATOR] [OPERAND])
+ex : (1 + 2 + 3)
+
+FORMAT OPERATOR :
+Gunakan x untuk perkalian
+Gunakan : untuk pembagian
+Gunakan + untuk penjumlahan
+Gunakan - untuk pengurangan
+Gunakan % untuk modulus (sisa pembagian)
+Gunakan ^ untuk eksponensial
+
+========== TERIMA KASIH ==========
+
+
